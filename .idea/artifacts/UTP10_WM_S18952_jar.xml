@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UTP10_WM_S18952:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/UTP10_WM_S18952_jar</output-path>
+    <root id="archive" name="UTP10_WM_S18952.jar">
+      <element id="module-output" name="UTP10_WM_S18952" />
+    </root>
+  </artifact>
+</component>
