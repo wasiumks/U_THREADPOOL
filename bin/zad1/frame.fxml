@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-min-height: 400; -fx-min-width: 600;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zad1.Controller">
+    <top>
+        <VBox prefHeight="51.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="stopButton" mnemonicParsing="false" onAction="#stop" prefHeight="25.0" prefWidth="600.0" style="-fx-pref-width: 2000;" text="Stop" />
+                <Button fx:id="addThread" mnemonicParsing="false" onAction="#addThread" prefHeight="25.0" prefWidth="600.0" style="-fx-pref-width: 2000;" text="Add new thread" />
+            </children>
+        </VBox>
+    </top>
+    <center>
+        <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <content>
+                <Text fx:id="text" text="START" />
+            </content>
+        </ScrollPane>
+    </center>
+    <bottom>
+        <HBox fx:id="box" prefHeight="25.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>
