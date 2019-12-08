@@ -16,14 +16,13 @@
     <center>
         <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <content>
-                <Text fx:id="text" text="U_THREADPOOL s18952" />
+                <Text fx:id="text" text="START" />
             </content>
         </ScrollPane>
     </center>
     <bottom>
-        <HBox prefHeight="25.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <HBox fx:id="box" prefHeight="25.0" prefWidth="600.0" BorderPane.alignment="CENTER">
             <children>
-                <Button fx:id="T1" mnemonicParsing="false" prefHeight="25.0" prefWidth="600.0" style="-fx-pref-width: 2000;" text="T1" />
             </children>
         </HBox>
     </bottom>

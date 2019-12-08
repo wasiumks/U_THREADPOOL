@@ -11,8 +11,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("frame.fxml"));
-        primaryStage.setTitle("THREADPOOL");
-        primaryStage.setScene(new Scene(root, 590, 400));
+        primaryStage.setTitle("THREADPOOL - S18952");
+        primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }
 
