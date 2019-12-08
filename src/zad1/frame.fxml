@@ -2,35 +2,34 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<AnchorPane fx:controller="zad1.Controller" xmlns="http://javafx.com/javafx/10.0.2-internal"
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" fx:controller="zad1.Controller" xmlns="http://javafx.com/javafx/10.0.2-internal"
             xmlns:fx="http://javafx.com/fxml/1">
-    <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
-                prefWidth="600.0">
-        <top>
-            <VBox prefHeight="51.0" prefWidth="600.0" BorderPane.alignment="CENTER">
-                <children>
-                    <Button id="stop" mnemonicParsing="false" prefHeight="25.0" prefWidth="600.0"
-                            style="-fx-pref-width: 2000;" text="Stop"/>
-                    <Button id="add" mnemonicParsing="false" prefHeight="25.0" prefWidth="600.0"
-                            style="-fx-pref-width: 2000;" text="Add new thread"/>
-                </children>
-            </VBox>
-        </top>
-        <center>
-            <ScrollPane prefHeight="200.0" prefWidth="200.0" style="-fx-pref-width: 2000;"
-                        BorderPane.alignment="CENTER">
-                <content>
-                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0"/>
-                </content>
-            </ScrollPane>
-        </center>
-        <bottom>
-            <HBox prefHeight="25.0" prefWidth="600.0" BorderPane.alignment="CENTER">
-                <children>
-                    <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="600.0" style="-fx-pref-width: 2000;"
-                            text="T1"/>
-                </children>
-            </HBox>
-        </bottom>
-    </BorderPane>
-</AnchorPane>
+    <top>
+        <VBox prefHeight="51.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button id="stop" mnemonicParsing="false" prefHeight="25.0" prefWidth="600.0"
+                        style="-fx-pref-width: 2000;" text="Stop"/>
+                <Button id="add" mnemonicParsing="false" prefHeight="25.0" prefWidth="600.0"
+                        style="-fx-pref-width: 2000;" text="Add new thread"/>
+            </children>
+        </VBox>
+    </top>
+    <center>
+        <ScrollPane prefHeight="200.0" prefWidth="200.0" style="-fx-pref-width: 2000;"
+                    BorderPane.alignment="CENTER">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0"/>
+            </content>
+        </ScrollPane>
+    </center>
+    <bottom>
+        <HBox prefHeight="25.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="600.0" style="-fx-pref-width: 2000;"
+                        text="T1"/>
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>

@@ -9,11 +9,10 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("frame.fxml"));
         primaryStage.setTitle("THREADPOOL");
         primaryStage.setScene(new Scene(root, 590, 400));
-        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
